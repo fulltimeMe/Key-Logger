@@ -1,0 +1,7 @@
+from tqdm import tqdm
+import time
+
+for i in tqdm(range(20), ncols=60):
+	time.sleep(0.5)
+	
+    
