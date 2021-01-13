@@ -1,2 +1,2 @@
 # Key-Logger
-a Key Logger.
+a Key Logger. for Linux
